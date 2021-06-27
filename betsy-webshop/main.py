@@ -64,22 +64,22 @@ First creating the tables and make the records.
 """
 
 print("First we search for the product Sweater")
-print(search('Sweater'))
+search('Sweater')
 
-print("Now we want to see all the products with user_id 1")
-print(list_user_products(1))
+# print("Now we want to see all the products with user_name jochum")
+# print(list_user_products(1))
 
-print("Now we want to see al the tags with id 1")
-print(list_products_per_tag(1))
+# print("Now we want to see al the tags from sweater")
+# print(list_products_per_tag(1))
 
-print("Now we gonna add a product to the catalog")
-print(add_product_to_catalog(2, 'Uno'))
+# print("Now we gonna add a product to the catalog")
+# print(add_product_to_catalog(2, 'Uno'))
 
-print("Now we gonna update the stock from a product")
-print(update_stock(1, 100))
+# print("Now we gonna update the stock from a product")
+# print(update_stock(1, 100))
 
-print("Now we gonna purchase a product")
-print(purchase_product(1, 4, 10))
+# print("Now we gonna purchase a product")
+# print(purchase_product(1, 4, 10))
 
-print("And now we gonna remove a product")
-print(remove_product(6))
+# print("And now we gonna remove a product")
+# print(remove_product(6))
